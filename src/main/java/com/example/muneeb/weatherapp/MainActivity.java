@@ -102,12 +102,7 @@ public class MainActivity extends AppCompatActivity {
 
                     String link = resultObj.getString("Link");
                     weather.setLink(link);
-
-//                        Log.i(TAG,"parseJSON: Date: " + date + " " +
-//                                "Minimum Temperature: " + minTemp + " " +
-//                                "Maximum Temperature: " + maxTemp + " " +
-//                                "Link: " + link);
-
+                    
                     weatherArrayList.add(weather);
                 }
 
